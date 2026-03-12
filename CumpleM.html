@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caritas</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+    <div id="espacio-estrellas" class="oculto"></div>
+
+    <div id="contenedor-reacciones"></div>
+
+    <div id="pantalla-inicio">
+        <h1>¡Feliz Cumpleaños, mi vida!</h1>
+        <button id="btn-iniciar">Toca aquí para ver tu regalo</button>
+    </div>
+
+    <div id="cuenta-regresiva-contenedor" class="oculto">
+        <canvas id="matrix-canvas"></canvas>
+        <div id="countdown-text"></div>
+    </div>
+
+    <div id="seccion-gatito" class="oculto">
+        <img src="gatito/GAtito.gif" id="gatito-gif" alt="Gatito feliz">
+        <p>¡SOS LA MEJOOR!</p>
+    </div>
+
+    <audio id="audio-fondo" src="/Musica/Luz.mp3" loop></audio>
+
+    <div id="libro" class="oculto">
+        <div id="contenedor-carta" class="oculto">
+            <p id="texto-maquina"></p>
+        </div>
+
+        <div id="hoja-actual" class="hoja">
+            <img src="Imagenes/Carita1.jpeg" id="foto-izq" class="foto">
+            <img src="Imagenes/Carita2.jpeg" id="foto-der" class="foto">
+        </div>
+        
+        <div class="controles">
+            <button id="btn-anterior">Anterior</button>
+            <button id="btn-siguiente">Siguiente</button>
+        </div>
+    </div>
+
+    <div id="seccion-final" class="oculto">
+        <a href="https://www.youtube.com/watch?v=slrtdFTJyCQ&list=RDslrtdFTJyCQ&start_radio=1" target="_blank" id="btn-yt">¡Escucha nuestra canción!</a>
+    </div>
+
+    <canvas id="canvas-corazon" class="oculto"></canvas>
+
+    <script src="script.js"></script>
+</body>
+</html>
