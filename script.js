@@ -118,7 +118,7 @@ function iniciarMatrix() {
     for (let i = 0; i < cols; i++) drops[i] = 1;
     function draw() {
         ctx.fillStyle = 'rgba(0,0,0,0.05)'; ctx.fillRect(0,0,canvas.width, canvas.height);
-        ctx.fillStyle = '#c74dff'; ctx.font = '20px Arial';
+        ctx.fillStyle = '#691330'; ctx.font = '20px Arial';
         const frases = ["TE AMO", "PRECIOSA", "MI AMOR", "GORDITA", "❤"];
         drops.forEach((y, i) => {
             let text = frases[Math.floor(Math.random() * frases.length)];
@@ -131,3 +131,4 @@ function iniciarMatrix() {
     draw();
 
 }
+
