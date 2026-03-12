@@ -79,7 +79,7 @@ document.getElementById('btn-siguiente').addEventListener('click', () => {
         document.getElementById('hoja-actual').classList.add('oculto');
         document.querySelector('.controles').classList.add('oculto');
         contenedorCarta.classList.remove('oculto');
-        escribirCarta("¡Feliz cumpleaños, amor de mi vida! Gracias por cada momento juntos, eres mi regalo favorito y mi persona estrella favorita. Te amo infinito.");
+        escribirCarta("¡Feliz cumpleaños, amor de mi vida! Gracias por cada momento juntos, eres mi regalo favorito y mi estrella favorita. Te amo infinito.");
     }
 });
 
@@ -129,4 +129,5 @@ function iniciarMatrix() {
         requestAnimationFrame(draw);
     }
     draw();
+
 }
